@@ -7,5 +7,5 @@ npm i
 npm run dev
 ```
 
-built by [http://twitter.com/clintonhalpin](@clintonhalpin)
+built by [@clintonhalpin](http://twitter.com/clintonhalpin)
 
