@@ -1,3 +1,6 @@
+// main app
+// define all components and modules and fire up the app
+
 "use strict";
 
 require('angular')
@@ -8,9 +11,9 @@ angular.module('app', [
 ])
 
 .config(["$urlRouterProvider", "$stateProvider", require('./routes') ])
-.controller('indexController', [ '$scope', require('./../components/index/controllers') ])
+.controller('indexCtrl', [ '$scope', require('./../components/index/controllers') ])
 
-// Fire it up 
+// Light the fires and kick the tires 
 angular.element(document).ready(function() {
     angular.bootstrap(document, ['app'])
 });

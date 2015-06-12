@@ -1,3 +1,8 @@
+// sampleFactory
+// just define a factory in js/app.js
+
+"use strict";
+
 module.exports = function() {
     var value = "Hey I'm a value and I'm being returned from a factory!";
 
