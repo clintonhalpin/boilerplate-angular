@@ -10,8 +10,8 @@ angular.module('app', [
     'ui.router'
 ])
 
-.config(["$urlRouterProvider", "$stateProvider", require('./routes') ])
-.controller('indexCtrl', [ '$scope', require('./../components/index/controllers') ])
+.config(["$urlRouterProvider", "$stateProvider", require('./components/routes/') ])
+.controller('indexCtrl', [ '$scope', require('./components/index/controllers/') ])
 
 // Light the fires and kick the tires 
 angular.element(document).ready(function() {

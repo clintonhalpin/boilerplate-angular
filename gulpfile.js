@@ -42,7 +42,7 @@ gulp.task('livereload', function() {
 gulp.task('javascript', function () {
   // set up the browserify instance on a task basis
   var b = browserify({
-    entries: './src/components/',
+    entries: './src/js/',
     debug: true
   });
 
