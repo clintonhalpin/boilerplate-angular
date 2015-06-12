@@ -7,7 +7,7 @@ module.exports = function($urlRouterProvider, $stateProvider) {
     $stateProvider
         .state('index', {
           url: "/",
-          templateUrl: "components/index/html/index.html",
+          templateUrl: "./js/components/index/html/index.html",
           controller: 'indexCtrl'
     });
 }

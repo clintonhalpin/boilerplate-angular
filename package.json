@@ -1,15 +1,15 @@
 {
   "name": "Boilerplate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "author": "clintonhalpin@gmail.com",
+  "repository": "git@github.com:clintonhalpin/boilerplate-angular.git",
   "license": "MIT",
   "devDependencies": {
     "connect-livereload": "^0.4.0",
     "express": "^4.8.8",
     "gulp": "^3.8.7",
     "gulp-browserify": "^0.5.0",
-    "gulp-clean": "^0.3.1",
     "gulp-util": "^3.0.1",
     "tiny-lr": "^0.1.1"
   },
