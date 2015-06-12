@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "npm i && gulp",
-    "dev": "gulp"
+    "dev": "gulp",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "angular": "^1.3.16",
