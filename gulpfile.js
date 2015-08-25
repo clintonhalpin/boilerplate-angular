@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     buffer = require('vinyl-buffer'),
     uglify = require('gulp-uglify'),
     stringify = require('stringify'),
+    babelify = require('babelify'),
     port = 4000,
     lrport = 9088;
 
@@ -44,7 +45,8 @@ gulp.task('javascript', function () {
   var b = browserify({
     entries: './src/js/',
     debug: true
-  }).transform(stringify(['.html']));
+  }).transform(stringify(['.html']))
+  .transform(babelify);
 
   return b.bundle()
     .pipe(source('index.js'))
