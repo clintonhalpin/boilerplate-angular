@@ -16,7 +16,7 @@
   "scripts": {
     "start": "npm i && gulp",
     "dev": "gulp",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+    "gh-pages": "git subtree push -P dist origin gh-pages"
   },
   "dependencies": {
     "angular": "^1.3.16",
@@ -25,6 +25,7 @@
     "gulp-less": "^3.0.2",
     "gulp-sourcemaps": "^1.5.0",
     "gulp-uglify": "^1.2.0",
+    "stringify": "^3.1.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "vinyl-transform": "^1.0.0"
