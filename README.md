@@ -1,5 +1,5 @@
 # boilerplate-angular
-Basic Angular Stuff
+Basic Angular Stuff, with ES6
 
 # get started
 ```

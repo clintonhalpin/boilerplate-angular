@@ -1,10 +1,8 @@
 // main app
 // define all components and modules and fire up the app
 
-"use strict";
-
-require('angular')
-require('angular-ui-router')
+import 'angular';
+import 'angular-ui-router';
 
 angular.module('app', [
     'ui.router'
@@ -14,7 +12,7 @@ angular.module('app', [
 .controller('indexCtrl', [ '$scope', require('./components/index/controllers/') ])
 
 // Light the fires and kick the tires 
-angular.element(document).ready(function() {
+angular.element(document).ready(() => {
     angular.bootstrap(document, ['app'])
 });
 

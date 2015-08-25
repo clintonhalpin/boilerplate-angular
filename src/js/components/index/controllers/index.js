@@ -1,6 +1,5 @@
 // indexCtrl
 
-"use strict";
+export default ($scope) => {
 
-module.exports = function($scope) {
 }

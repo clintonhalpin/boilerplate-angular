@@ -1,8 +1,6 @@
 // routes
 
-"use strict";
-
-module.exports = function($urlRouterProvider, $stateProvider) {
+export default ($urlRouterProvider, $stateProvider) => {
     $urlRouterProvider.otherwise("/");
     $stateProvider
         .state('index', {
